@@ -3,11 +3,10 @@ from discord.ext import commands
 import requests
 import os
 from dotenv import load_dotenvgit
-# 1. Load the secret token from the .env file
+
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
-API_URL = "http://127.0.0.1:8000/validate" # Matches your FastAPI port
-
+API_URL = "http://127.0.0.1:8000/validate"
 intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents)
@@ -19,8 +18,7 @@ async def on_ready():
 @bot.command(name="analyze")
 async def analyze(ctx, *, user_draft):
     await ctx.send("🔍 *Omoikane is analyzing the multiverse threads...*")
-    
-    # Payload matches the 'QueryRequest' model in your main.py
+   
     payload = {"draft_text": user_draft} 
             
     try:

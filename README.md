@@ -35,3 +35,5 @@
 
 ---
 *Developed as a proof-of-concept for high-accuracy fact extraction and real-time AI-enabled collaborative interfaces.*
+
+*This product is licensed under the MIT License - see the LICENSE  file for details.*

@@ -13,7 +13,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"], # In production, you'd put your Vercel URL here
+    allow_origins=["*"], 
     allow_methods=["*"],
     allow_headers=["*"],
 )
