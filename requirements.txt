@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+qdrant-client
+llama-index
+llama-index-llms-ollama
+llama-index-vector-stores-qdrant
+llama-index-embeddings-huggingface
+discord.py
+requests
+python-dotenv

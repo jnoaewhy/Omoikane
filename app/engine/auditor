@@ -1,0 +1,23 @@
+from llama_index.core import VectorStoreIndex, StorageContext 
+from llama_index.core.tools import QueryEngineTool, ToolMetadata
+
+class StoryAuditor:
+    def __init__(self, index: VectorStoreIndex):
+        self.query_engine = index.as_query_engine(similarity_top_k=3)
+
+    def audit_chapter(self, chapter_text: str):
+        """
+        Processes a chapter line-by-line and checks for lore contradictions.
+        """
+        prompt = (
+            "You are Omoikane, the Narrative Truth Engine. "
+            "Examine the following text for contradictions against the established lore. "
+            "For every error, provide: \n"
+            "1. STATUS: (Conflict/Anachronism/Out-of-Character)\n"
+            "2. EDUCATION: Why it is wrong.\n"
+            "3. REFERENCE: The specific source or chapter from the lore vault.\n\n"
+            f"TEXT TO AUDIT: {chapter_text}"
+        )
+        
+        response = self.query_engine.query(prompt)
+        return response

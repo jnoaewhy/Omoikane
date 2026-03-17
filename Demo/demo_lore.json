@@ -1,0 +1,14 @@
+[
+  {
+    "universe": "Marathon",
+    "fact": "The UESC Marathon is a hollowed-out Martian moon named Deimos.",
+    "common_error": "The Marathon was a ship built in a shipyard on Earth.",
+    "omo_correction": "INACCURATE. The Marathon is a converted celestial body (Deimos), not a manufactured vessel."
+  },
+  {
+    "universe": "Cyberpunk 2077",
+    "fact": "Soulkiller is a lethal program that digitizes consciousness but kills the physical body.",
+    "common_error": "Soulkiller can be used as a medical tool to save dying people.",
+    "omo_correction": "CRITICAL MISINTERPRETATION. Soulkiller is an execution tool; its use results in the death of the biological host."
+  }
+]

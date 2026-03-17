@@ -1,0 +1,15 @@
+COLONY SHIP MARATHON: LORE DATA 2893
+
+Factions:
+
+MIDA: A radical terrorist organization dedicated to dismantling corporate control. They actively sabotage UESC infrastructure. They are enemies of the state.
+
+UESC (United Earth Space Council): The governing body of the colony ship. They focus on security, stability, and expansion.
+
+Terminology:
+
+Runner: A specialized operative using a synthetic 'Shell' for high-risk missions.
+
+Triage Shell: A Combat Medic unit designed for field support and recovery.
+
+Tau Ceti IV: The target planet for colonization, currently in a state of high tension.
