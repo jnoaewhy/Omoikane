@@ -1,15 +1,15 @@
-# 🧠 Project Omoikane: The Narrative Truth Engine
+# Project Omoikane: The Narrative Truth Engine
 
 **Omoikane** is an Agentic RAG (Retrieval-Augmented Generation) system designed to ensure narrative integrity and eliminate AI hallucinations in complex, high-density fictional universes. Built with a "Security-First" and "Fact-First" mindset, it acts as a synthetic archivist capable of auditing creative drafts against canonical lore in real-time.
 
-## 🚀 Key Features
+##  Key Features
 
 * **Agentic RAG Architecture**: Utilizes a `RouterQueryEngine` to dynamically navigate between disparate lore vaults (e.g., Marathon, Cyberpunk) based on semantic intent.
 * **The "Dumbass Trigger"**: A pre-inference validation layer that identifies and rejects statistically impossible or logically inconsistent combat matchups before they consume compute resources.
 * **Persistent Memory Vault**: Powered by a local **Qdrant** vector database to ensure zero-latency retrieval and 100% data persistence across sessions.
 * **Multi-Interface Access**: Accessible via a high-performance **FastAPI** backend and a collaborative **Discord** bot interface.
 
-## 🛠️ Technical Stack
+##  Technical Stack
 
 * **Brain**: Ollama (Llama 3)
 * **Orchestration**: LlamaIndex
@@ -17,14 +17,14 @@
 * **API Framework**: FastAPI
 * **Environment Management**: python-dotenv
 
-## 📂 Project Structure
+##  Project Structure
 
 * `main.py`: The core FastAPI application handling RAG routing and validation logic.
 * `discord_bot.py`: The frontend interface for collaborative narrative auditing.
 * `data/`: Persistent storage for canonical lore across multiple IPs.
 * `demo/`: Preloaded "Truth Samples" for rapid system demonstration.
 
-## 🚦 Quick Start
+##  Quick Start
 
 1. **Clone the repository.**
 2. **Install dependencies**: `pip install -r requirements.txt`.
